@@ -1,0 +1,33 @@
+{
+	"name": "mdpreview-non-space-character-count",
+	"displayName": "Markdown preview (non-space) character counter",
+	"description": "Count non-space characters on Markdown preview",
+	"publisher": "soburi",
+	"version": "0.0.1",
+	"license": "MIT",
+	"authors": {
+		"name": "Tokita, Hiroshi"
+	},
+        "repository": {
+                "url": "https://github.com/soburi/mdpreview-non-space-character-count"
+        },
+        "bugs": {
+                "url": "https://github.com/soburi/mdpreview-non-space-character-count/issues"
+        },
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:markdown"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"markdown.markdownItPlugins": true
+	},
+	"devDependencies": {
+		"vscode": "^1.1.28"
+	}
+}
